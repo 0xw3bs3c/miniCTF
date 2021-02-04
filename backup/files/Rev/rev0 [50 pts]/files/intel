@@ -1,0 +1,23 @@
+MOV eax, 1337
+MOV ebx, 2987
+MOV ecx, 6969
+CMP ebx, ecx 
+
+JZ L1
+JMP L2 
+
+L1: 
+IMUL ebx, eax
+ADD  ebx, eax
+MOV  eax, ebx
+SUB  eax, ecx
+
+L2: 
+IMUL ebx, eax
+SUB  ebx, eax
+MOV  eax, ebx
+ADD  eax, ecx
+JMP L3
+
+L3: 
+NOP

@@ -1,0 +1,1240 @@
+{
+    "Crypto": {
+        "HIGHS AND LOWS": {
+            "attempts": 1, 
+            "category": "Crypto", 
+            "description": "My friend was sending me a message but I think his keyboard has some problem.\r\n\r\nAuthor: 007Paul2000", 
+            "files": [
+                "/files/8688bc7d96f5fa8a524d5bc26b20c783/ciphertext.txt?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyMX0.YBsXoQ.J4OAADfquX3JXwLp1jDc6RDFt54"
+            ], 
+            "hints": [], 
+            "id": 21, 
+            "max_attempts": 0, 
+            "name": "HIGHS AND LOWS", 
+            "solves": 29, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 100, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t29 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tHIGHS AND LOWS\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t100\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>My friend was sending me a message but I think his keyboard has some problem.</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/8688bc7d96f5fa8a524d5bc26b20c783/ciphertext.txt?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyMX0.YBsXoQ.J4OAADfquX3JXwLp1jDc6RDFt54'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tciphertext.txt\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"21\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Have a safe journey xD": {
+            "attempts": 6, 
+            "category": "Crypto", 
+            "description": "The flags will guide you home. Flag format is GLUG{}\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/13ea33d48e9e1f5fc7706d4598e493fe/flag.png?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyNX0.YBsXlw.znt6G_TfIq37jUNAFar7u0UrJxQ"
+            ], 
+            "hints": [], 
+            "id": 28, 
+            "max_attempts": 0, 
+            "name": "Have a safe journey xD", 
+            "solves": 30, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t30 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tHave a safe journey xD\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>The flags will guide you home. Flag format is GLUG{}</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/13ea33d48e9e1f5fc7706d4598e493fe/flag.png?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyNX0.YBsXlw.znt6G_TfIq37jUNAFar7u0UrJxQ'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tflag.png\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"28\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "It all started in Greece": {
+            "attempts": 5, 
+            "category": "Crypto", 
+            "description": "These numbers do seem random. I think an ancient Greek historian may help you out. Flag format is GLUG{}.\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/1057f396b88c6224e62e88f24df37e87/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExM30.YBsXnQ.09xPDDc60sBQX6nMGBcBSl7WIu0"
+            ], 
+            "hints": [], 
+            "id": 12, 
+            "max_attempts": 0, 
+            "name": "It all started in Greece", 
+            "solves": 6, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 100, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t6 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tIt all started in Greece\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t100\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>These numbers do seem random. I think an ancient Greek historian may help you out. Flag format is GLUG{}.</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/1057f396b88c6224e62e88f24df37e87/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExM30.YBsXnQ.09xPDDc60sBQX6nMGBcBSl7WIu0'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tciphertext\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"12\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "SUBTRACTION": {
+            "attempts": 1, 
+            "category": "Crypto", 
+            "description": "My friend gave me some numbers to decode it seems to be ASCII but I am not getting the flag.. ;)\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f", 
+            "files": [
+                "/files/fa9e742f6de0064a42ef2ed9251b84a4/numbers.txt?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyOH0.YBsXkw.W642NnrdX1sWwcScOCTsOrLji1U"
+            ], 
+            "hints": [], 
+            "id": 34, 
+            "max_attempts": 0, 
+            "name": "SUBTRACTION", 
+            "solves": 52, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t52 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tSUBTRACTION\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>My friend gave me some numbers to decode it seems to be ASCII but I am not getting the flag.. ;)</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/fa9e742f6de0064a42ef2ed9251b84a4/numbers.txt?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyOH0.YBsXkw.W642NnrdX1sWwcScOCTsOrLji1U'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tnumbers.txt\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"34\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "The Battle of Waterloo": {
+            "attempts": 2, 
+            "category": "Crypto", 
+            "description": "0xk4rma travelled back in history and found this lying on the battlefield of Waterloo.  <br>\r\nflag format - GLUG{word1_word2_word3}.\r\n\r\nAuthor: deadlycoder07", 
+            "files": [
+                "/files/04152989f31642db0fadf1ac7033f72c/chall.png?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyNH0.YBsXlg.hFRwiS-hetu65Zk1Kml8y_jQfxQ"
+            ], 
+            "hints": [], 
+            "id": 25, 
+            "max_attempts": 0, 
+            "name": "The Battle of Waterloo", 
+            "solves": 34, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t34 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tThe Battle of Waterloo\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>0xk4rma travelled back in history and found this lying on the battlefield of Waterloo.  <br>\nflag format - GLUG{word1_word2_word3}.</p>\n<p>Author: deadlycoder07</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/04152989f31642db0fadf1ac7033f72c/chall.png?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyNH0.YBsXlg.hFRwiS-hetu65Zk1Kml8y_jQfxQ'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tchall.png\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"25\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "This is hex-citing!": {
+            "attempts": 1, 
+            "category": "Crypto", 
+            "description": "Seems like there's a party next door. To enter you need to get the flag.\r\n\r\nAuthor: 007Paul2000", 
+            "files": [
+                "/files/da295b615f6da82d7fc1bfab9e034a67/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyNn0.YBsXiQ.LUeXMyfSzM8L90quYev-jmKUKxM"
+            ], 
+            "hints": [], 
+            "id": 30, 
+            "max_attempts": 0, 
+            "name": "This is hex-citing!", 
+            "solves": 54, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 25, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t54 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tThis is hex-citing!\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Seems like there's a party next door. To enter you need to get the flag.</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/da295b615f6da82d7fc1bfab9e034a67/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyNn0.YBsXiQ.LUeXMyfSzM8L90quYev-jmKUKxM'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tciphertext\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"30\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Way too easy!": {
+            "attempts": 1, 
+            "category": "Crypto", 
+            "description": "My boon is my poison\r\n\r\nAuthor: 007Paul2000", 
+            "files": [
+                "/files/a23f4ce1ae98c6884ab123ff4fe49f74/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExMX0.YBsXhw.rj284A2WWYYafA085_WSGxsUYiY"
+            ], 
+            "hints": [], 
+            "id": 6, 
+            "max_attempts": 0, 
+            "name": "Way too easy!", 
+            "solves": 56, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 25, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t56 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tWay too easy!\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>My boon is my poison</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/a23f4ce1ae98c6884ab123ff4fe49f74/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExMX0.YBsXhw.rj284A2WWYYafA085_WSGxsUYiY'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tciphertext\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"6\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "XOR ROXXX": {
+            "attempts": 1, 
+            "category": "Crypto", 
+            "description": "I found this weird encryption scheme online. Looks like it uses some random key. Could you help me decode the flag?\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/6501020fdc8c732263d758f8ce079aa3/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExOX0.YBsXqA.DE5xgRhfAIqt_c11BWG3L7IQISQ", 
+                "/files/44ce73732324d1c539154135e1325939/encrypt.py?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEzMH0.YBsXqA.hfZdjX0O9wWICJ_XsG2cWBBb9Fs"
+            ], 
+            "hints": [], 
+            "id": 18, 
+            "max_attempts": 0, 
+            "name": "XOR ROXXX", 
+            "solves": 6, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 150, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t6 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tXOR ROXXX\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t150\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>I found this weird encryption scheme online. Looks like it uses some random key. Could you help me decode the flag?</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/6501020fdc8c732263d758f8ce079aa3/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExOX0.YBsXqA.DE5xgRhfAIqt_c11BWG3L7IQISQ'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tciphertext\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/44ce73732324d1c539154135e1325939/encrypt.py?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEzMH0.YBsXqA.hfZdjX0O9wWICJ_XsG2cWBBb9Fs'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tencrypt.py\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"18\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "You can't solve this, Brutus!": {
+            "attempts": 1, 
+            "category": "Crypto", 
+            "description": "I found this piece of text in an ancient Roman scroll. Caesar says he has hidden the flag somewhere in here.\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/7152a41ef56f6979d2165e67ca577fc1/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyN30.YBsXkg.w8vx6CaNLiJ3IIdMLDP91FHEzTk"
+            ], 
+            "hints": [], 
+            "id": 32, 
+            "max_attempts": 0, 
+            "name": "You can't solve this, Brutus!", 
+            "solves": 59, 
+            "state": "visible", 
+            "tags": [
+                "crypto"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t59 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tYou can&#39;t solve this, Brutus!\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>crypto</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>I found this piece of text in an ancient Roman scroll. Caesar says he has hidden the flag somewhere in here.</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/7152a41ef56f6979d2165e67ca577fc1/ciphertext?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyN30.YBsXkg.w8vx6CaNLiJ3IIdMLDP91FHEzTk'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tciphertext\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"32\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "Forensics": {
+        "Expecto Patronum": {
+            "attempts": 7, 
+            "category": "Forensics", 
+            "description": "The dementors have escaped Azkaban and are behind Harry Potter once again. His wand is broken and he can't cast the spell to drive them away. Find the flag fast to prevent the dementors from sucking his soul out!\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/0369e3cae8818033f74e6332f89f84ec/chall.png?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEzMX0.YBsXmw.k2o8YVlF97jhWgdM0XHKa9PPdnU"
+            ], 
+            "hints": [], 
+            "id": 43, 
+            "max_attempts": 0, 
+            "name": "Expecto Patronum", 
+            "solves": 10, 
+            "state": "visible", 
+            "tags": [], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t10 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tExpecto Patronum\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>The dementors have escaped Azkaban and are behind Harry Potter once again. His wand is broken and he can't cast the spell to drive them away. Find the flag fast to prevent the dementors from sucking his soul out!</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/0369e3cae8818033f74e6332f89f84ec/chall.png?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEzMX0.YBsXmw.k2o8YVlF97jhWgdM0XHKa9PPdnU'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tchall.png\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"43\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Polyglot": {
+            "attempts": 2, 
+            "category": "Forensics", 
+            "description": "0xk4rma has sent a secret message but i can't open it.\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/af32b782fd6a0f0b734e37e30e384e43/chall.txt?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEwN30.YBsXkw.hnc8l9mNgKABo3M8UfIADI69Flk"
+            ], 
+            "hints": [], 
+            "id": 40, 
+            "max_attempts": 0, 
+            "name": "Polyglot", 
+            "solves": 57, 
+            "state": "visible", 
+            "tags": [
+                "forensics"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t57 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tPolyglot\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>forensics</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>0xk4rma has sent a secret message but i can't open it.</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/af32b782fd6a0f0b734e37e30e384e43/chall.txt?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEwN30.YBsXkw.hnc8l9mNgKABo3M8UfIADI69Flk'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tchall.txt\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"40\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "Pwn": {
+        "pwn0": {
+            "attempts": 1, 
+            "category": "Pwn", 
+            "description": "Fill my puffer ...\r\n\r\nnc chall.ctf.nitdgplug.org 30010\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [
+                "/files/efaf76bb3087c873afecbc2bbb94cb35/pwn0?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyMn0.YBsXjw.KrSwIs-QiM1xMAhUWkMcXrQXUlw", 
+                "/files/e09ad18e3c19cb6d4a1e64669b37569c/pwn0.c?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyOX0.YBsXjw.CNaHTp5cEsCRJR6xZKowjw3Q_RE"
+            ], 
+            "hints": [], 
+            "id": 23, 
+            "max_attempts": 0, 
+            "name": "pwn0", 
+            "solves": 22, 
+            "state": "visible", 
+            "tags": [
+                "pwn"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t22 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tpwn0\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>pwn</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Fill my puffer ...</p>\n<p>nc chall.ctf.nitdgplug.org 30010</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/efaf76bb3087c873afecbc2bbb94cb35/pwn0?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyMn0.YBsXjw.KrSwIs-QiM1xMAhUWkMcXrQXUlw'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tpwn0\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/e09ad18e3c19cb6d4a1e64669b37569c/pwn0.c?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyOX0.YBsXjw.CNaHTp5cEsCRJR6xZKowjw3Q_RE'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tpwn0.c\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"23\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "pwn1": {
+            "attempts": 1, 
+            "category": "Pwn", 
+            "description": "Smuggle some secrets and take your flag ... <br>\r\nnc chall.ctf.nitdgplug.org  30011\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [
+                "/files/d8ae7598a6e709f5a5f1fbfd9139121b/pwn1?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEwOX0.YBsXig.gYjmDgwDBL7JSilVCSj6-vxjdWU"
+            ], 
+            "hints": [], 
+            "id": 7, 
+            "max_attempts": 0, 
+            "name": "pwn1", 
+            "solves": 9, 
+            "state": "visible", 
+            "tags": [
+                "pwn"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t9 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tpwn1\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>pwn</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Smuggle some secrets and take your flag ... <br>\nnc chall.ctf.nitdgplug.org  30011</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/d8ae7598a6e709f5a5f1fbfd9139121b/pwn1?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEwOX0.YBsXig.gYjmDgwDBL7JSilVCSj6-vxjdWU'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tpwn1\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"7\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "pwn2": {
+            "attempts": 1, 
+            "category": "Pwn", 
+            "description": "Big Bang Win ... \r\n\r\nnc chall.ctf.nitdgplug.org  30012\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [
+                "/files/86579e58c2693338e75b26d8e0f23216/pwn2?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExNH0.YBsXmQ.Qq6pkzFH5G-rnXbDnVSXkDwGdPo"
+            ], 
+            "hints": [], 
+            "id": 36, 
+            "max_attempts": 0, 
+            "name": "pwn2", 
+            "solves": 2, 
+            "state": "visible", 
+            "tags": [
+                "pwn"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t2 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tpwn2\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>pwn</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Big Bang Win ...</p>\n<p>nc chall.ctf.nitdgplug.org  30012</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/86579e58c2693338e75b26d8e0f23216/pwn2?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExNH0.YBsXmQ.Qq6pkzFH5G-rnXbDnVSXkDwGdPo'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tpwn2\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"36\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "pwn3": {
+            "attempts": 0, 
+            "category": "Pwn", 
+            "description": "Big Bang Bomb Win ...\r\n\r\nnc chall.ctf.nitdgplug.org 30013\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [
+                "/files/7bb8806c1017ad1f3c605056dd81516f/pwn3?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyM30.YBsXoA.6v-kTnWHM95gG-1VFE_sQoUyUzE"
+            ], 
+            "hints": [], 
+            "id": 15, 
+            "max_attempts": 0, 
+            "name": "pwn3", 
+            "solves": 1, 
+            "state": "visible", 
+            "tags": [
+                "pwn"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 100, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t1 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tpwn3\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t100\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>pwn</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Big Bang Bomb Win ...</p>\n<p>nc chall.ctf.nitdgplug.org 30013</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/7bb8806c1017ad1f3c605056dd81516f/pwn3?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyM30.YBsXoA.6v-kTnWHM95gG-1VFE_sQoUyUzE'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tpwn3\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"15\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "Rev": {
+        "rev0": {
+            "attempts": 32, 
+            "category": "Rev", 
+            "description": "Modern school language...huh\r\n\r\nWhat's the value of  `eax`  when the last instruction (NOP) runs ?\r\nFLAG FORMAT : `GLUG{final_eax_value}`\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [
+                "/files/fe6fc8183f4b76f92bb0740043deee7f/intel?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExNn0.YBsXjg.eBAy2dcGJhgoI5OMU8ox6lVJ7Gk"
+            ], 
+            "hints": [], 
+            "id": 14, 
+            "max_attempts": 0, 
+            "name": "rev0", 
+            "solves": 12, 
+            "state": "visible", 
+            "tags": [
+                "rev"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t12 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\trev0\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>rev</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Modern school language...huh</p>\n<p>What's the value of  <code>eax</code>  when the last instruction (NOP) runs ?\nFLAG FORMAT : <code>GLUG{final_eax_value}</code></p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/fe6fc8183f4b76f92bb0740043deee7f/intel?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExNn0.YBsXjg.eBAy2dcGJhgoI5OMU8ox6lVJ7Gk'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tintel\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"14\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "rev1": {
+            "attempts": 1, 
+            "category": "Rev", 
+            "description": "sssttttrrrr.......ssss gibe me the pass\r\n\r\nnc chall.ctf.nitdgplug.org 30009\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f", 
+            "files": [
+                "/files/ca8973ccf3d3959d5533ac04a9f69e4b/rev1?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEwOH0.YBsXjA.6q_vbRfQd8e5gchXYBmuheCzWng"
+            ], 
+            "hints": [], 
+            "id": 9, 
+            "max_attempts": 0, 
+            "name": "rev1", 
+            "solves": 35, 
+            "state": "visible", 
+            "tags": [
+                "rev"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t35 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\trev1\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>rev</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>sssttttrrrr.......ssss gibe me the pass</p>\n<p>nc chall.ctf.nitdgplug.org 30009</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/ca8973ccf3d3959d5533ac04a9f69e4b/rev1?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEwOH0.YBsXjA.6q_vbRfQd8e5gchXYBmuheCzWng'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\trev1\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"9\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "rev2": {
+            "attempts": 2, 
+            "category": "Rev", 
+            "description": "x0 x0 aR3 y0u m4d \r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [
+                "/files/3bfb8cf5bd8daa061684b461edd52761/rev2?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyMH0.YBsXpw.q-ew6UFFQjrS7nolqXuAAUdKr6c"
+            ], 
+            "hints": [], 
+            "id": 19, 
+            "max_attempts": 0, 
+            "name": "rev2", 
+            "solves": 2, 
+            "state": "visible", 
+            "tags": [
+                "rev"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 125, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t2 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\trev2\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t125\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>rev</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>x0 x0 aR3 y0u m4d</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/3bfb8cf5bd8daa061684b461edd52761/rev2?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjEyMH0.YBsXpw.q-ew6UFFQjrS7nolqXuAAUdKr6c'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\trev2\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"19\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "Shell": {
+        "Bungle in the Jungle": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "Masao got lost in the jungle and has the flag that will guide them home. Help Shinchan and his friends find him.\r\n\r\nssh user@chall.ctf.nitdgplug.org -p 30008 <br>\r\nPassword: tux123\r\n\r\nAuthor: 007Paul2000\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 16, 
+            "max_attempts": 0, 
+            "name": "Bungle in the Jungle", 
+            "solves": 23, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t23 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tBungle in the Jungle\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Masao got lost in the jungle and has the flag that will guide them home. Help Shinchan and his friends find him.</p>\n<p>ssh <a href=\"mailto:user@chall.ctf.nitdgplug.org\">user@chall.ctf.nitdgplug.org</a> -p 30008 <br>\nPassword: tux123</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"16\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Can you hear the echo": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "If you keep your environment clean, you might hear an echo.\r\n\r\nssh user@chall.ctf.nitdgplug.org -p 30007 <br>\r\nPassword: tux123\r\n\r\nAuthor: nirvik007", 
+            "files": [], 
+            "hints": [], 
+            "id": 10, 
+            "max_attempts": 0, 
+            "name": "Can you hear the echo", 
+            "solves": 34, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t34 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tCan you hear the echo\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>If you keep your environment clean, you might hear an echo.</p>\n<p>ssh <a href=\"mailto:user@chall.ctf.nitdgplug.org\">user@chall.ctf.nitdgplug.org</a> -p 30007 <br>\nPassword: tux123</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"10\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Crack the Safe": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "There seems to be a passcode to get the flag. Can you help me crack it?\r\n\r\nnc chall.ctf.nitdgplug.org 30005\r\n\r\nAuthor: 007Paul2000\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 22, 
+            "max_attempts": 0, 
+            "name": "Crack the Safe", 
+            "solves": 3, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 125, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t3 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tCrack the Safe\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t125\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>There seems to be a passcode to get the flag. Can you help me crack it?</p>\n<p>nc chall.ctf.nitdgplug.org 30005</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"22\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Elusive": {
+            "attempts": 2, 
+            "category": "Shell", 
+            "description": "Try to locate the flag. Remember that looks can be deceptive.\r\n\r\n```\r\nssh user@chall.ctf.nitdgplug.org -p 30001 \r\nPassword: tux123\r\n```\r\nAuthor: nirvik007", 
+            "files": [], 
+            "hints": [], 
+            "id": 29, 
+            "max_attempts": 0, 
+            "name": "Elusive", 
+            "solves": 47, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 25, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t47 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tElusive\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Try to locate the flag. Remember that looks can be deceptive.</p>\n<pre><code>ssh user@chall.ctf.nitdgplug.org -p 30001 \nPassword: tux123\n</code></pre>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"29\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Reading between the lines": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "Amidst the chaos, find the flag that matters.\r\n\r\nssh user@chall.ctf.nitdgplug.org -p 30002 <br>\r\nPassword: tux123\r\n\r\nAuthor: nirvik007", 
+            "files": [], 
+            "hints": [], 
+            "id": 26, 
+            "max_attempts": 0, 
+            "name": "Reading between the lines", 
+            "solves": 49, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t49 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tReading between the lines\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Amidst the chaos, find the flag that matters.</p>\n<p>ssh <a href=\"mailto:user@chall.ctf.nitdgplug.org\">user@chall.ctf.nitdgplug.org</a> -p 30002 <br>\nPassword: tux123</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"26\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Sort Me": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "To take revenge from 0xk4rma I hide his password md5 hash password in hash wordlist which occurs only once. Once you get it submit GLUG{md5_decoded_hash}\r\n\r\nssh user@chall.ctf.nitdgplug.org -p 30006 <br>\r\nPassword: tux123\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f", 
+            "files": [], 
+            "hints": [], 
+            "id": 33, 
+            "max_attempts": 0, 
+            "name": "Sort Me", 
+            "solves": 20, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 100, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t20 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tSort Me\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t100\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>To take revenge from 0xk4rma I hide his password md5 hash password in hash wordlist which occurs only once. Once you get it submit GLUG{md5_decoded_hash}</p>\n<p>ssh <a href=\"mailto:user@chall.ctf.nitdgplug.org\">user@chall.ctf.nitdgplug.org</a> -p 30006 <br>\nPassword: tux123</p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"33\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Spot the difference": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "Alice and Bob are once again fighting over who's better. Let's settle this once and for all.\r\n\r\nssh user@chall.ctf.nitdgplug.org -p 30003 <br>\r\nPassword: tux123\r\n\r\nAuthor: 007Paul2000", 
+            "files": [], 
+            "hints": [], 
+            "id": 31, 
+            "max_attempts": 0, 
+            "name": "Spot the difference", 
+            "solves": 44, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t44 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tSpot the difference\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Alice and Bob are once again fighting over who's better. Let's settle this once and for all.</p>\n<p>ssh <a href=\"mailto:user@chall.ctf.nitdgplug.org\">user@chall.ctf.nitdgplug.org</a> -p 30003 <br>\nPassword: tux123</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"31\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Time travel": {
+            "attempts": 1, 
+            "category": "Shell", 
+            "description": "It's time to trace back your steps as History is repeating itself.\r\n\r\nssh user@chall.ctf.nitdgplug.org -p 30004 <br>\r\nPassword: tux123\r\n\r\nAuthor: nirvik007\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 35, 
+            "max_attempts": 0, 
+            "name": "Time travel", 
+            "solves": 40, 
+            "state": "visible", 
+            "tags": [
+                "shell"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t40 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tTime travel\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>shell</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>It's time to trace back your steps as History is repeating itself.</p>\n<p>ssh <a href=\"mailto:user@chall.ctf.nitdgplug.org\">user@chall.ctf.nitdgplug.org</a> -p 30004 <br>\nPassword: tux123</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"35\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "Web": {
+        "1000th Visitor": {
+            "attempts": 1, 
+            "category": "Web", 
+            "description": "0xk4rma made his first website where every 1000th visitor gets a prize. Are you the lucky one?\r\n\r\nhttps://dlug-web-4.herokuapp.com/\r\n\r\nAuthor: nirvik007\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 4, 
+            "max_attempts": 0, 
+            "name": "1000th Visitor", 
+            "solves": 30, 
+            "state": "visible", 
+            "tags": [
+                "web"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t30 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\t1000th Visitor\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>web</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>0xk4rma made his first website where every 1000th visitor gets a prize. Are you the lucky one?</p>\n<p><a href=\"https://dlug-web-4.herokuapp.com/\">https://dlug-web-4.herokuapp.com/</a></p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"4\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Danesita": {
+            "attempts": 1, 
+            "category": "Web", 
+            "description": "The challenge name will guide you further ;)\r\n\r\nhttps://dlug-web-5.herokuapp.com/\r\n\r\nAuthor: nirvik007\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 41, 
+            "max_attempts": 0, 
+            "name": "Danesita", 
+            "solves": 31, 
+            "state": "visible", 
+            "tags": [
+                "web"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t31 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tDanesita\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>web</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>The challenge name will guide you further ;)</p>\n<p><a href=\"https://dlug-web-5.herokuapp.com/\">https://dlug-web-5.herokuapp.com/</a></p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"41\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "EASY PEASY JWT": {
+            "attempts": 1, 
+            "category": "Web", 
+            "description": ":( may the currllll be with uu \r\n\r\nhttps://dlug2.herokuapp.com/\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 17, 
+            "max_attempts": 0, 
+            "name": "EASY PEASY JWT", 
+            "solves": 3, 
+            "state": "visible", 
+            "tags": [
+                "web"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 100, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t3 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tEASY PEASY JWT\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t100\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>web</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>:( may the currllll be with uu</p>\n<p><a href=\"https://dlug2.herokuapp.com/\">https://dlug2.herokuapp.com/</a></p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"17\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "I hate injections": {
+            "attempts": 1, 
+            "category": "Web", 
+            "description": "Go and take your flag\r\n\r\nhttp://chall.ctf.nitdgplug.org:30202/login.php\r\n\r\nAuthor: 007Paul2000\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 20, 
+            "max_attempts": 0, 
+            "name": "I hate injections", 
+            "solves": 41, 
+            "state": "visible", 
+            "tags": [
+                "web"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t41 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tI hate injections\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>web</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Go and take your flag</p>\n<p><a href=\"http://chall.ctf.nitdgplug.org:30202/login.php\">http://chall.ctf.nitdgplug.org:30202/login.php</a></p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"20\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Mr.Robot": {
+            "attempts": 1, 
+            "category": "Web", 
+            "description": "Robots can be very useful if you know how to use them\r\n\r\nhttps://robots-foobar.netlify.app/\r\n\r\nAuthor: nirvik007\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 11, 
+            "max_attempts": 0, 
+            "name": "Mr.Robot", 
+            "solves": 50, 
+            "state": "visible", 
+            "tags": [
+                "web"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t50 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tMr.Robot\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>web</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Robots can be very useful if you know how to use them</p>\n<p><a href=\"https://robots-foobar.netlify.app/\">https://robots-foobar.netlify.app/</a></p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"11\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "My First React App": {
+            "attempts": 1, 
+            "category": "Web", 
+            "description": "0xk4rma made his first react app a hangman game which is impossible to win. Can u try it out\r\n\r\nhttps://dlug1.herokuapp.com/\r\n\r\nAuthor: \u0415\u042f\u042f\u041e\u042f\r\n", 
+            "files": [], 
+            "hints": [], 
+            "id": 24, 
+            "max_attempts": 0, 
+            "name": "My First React App", 
+            "solves": 40, 
+            "state": "visible", 
+            "tags": [
+                "web"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 50, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t40 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tMy First React App\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t50\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>web</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>0xk4rma made his first react app a hangman game which is impossible to win. Can u try it out</p>\n<p><a href=\"https://dlug1.herokuapp.com/\">https://dlug1.herokuapp.com/</a></p>\n<p>Author: \u0415\u042f\u042f\u041e\u042f</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"24\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "misc": {
+        "Join discord ": {
+            "attempts": 1, 
+            "category": "misc", 
+            "description": "Don't forget to assign yourself CTF role by clicking the thumbs up reaction on the pinned message in the **#rules** channel for further updates  and check the pinned messages in **#general-chat** ;)", 
+            "files": [], 
+            "hints": [], 
+            "id": 42, 
+            "max_attempts": 0, 
+            "name": "Join discord ", 
+            "solves": 66, 
+            "state": "visible", 
+            "tags": [], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 10, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t66 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tJoin discord \n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t10\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Don't forget to assign yourself CTF role by clicking the thumbs up reaction on the pinned message in the <strong>#rules</strong> channel for further updates  and check the pinned messages in <strong>#general-chat</strong> ;)</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"42\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "Welcome challenge": {
+            "attempts": 2, 
+            "category": "misc", 
+            "description": "Join the discord server and ask for the flag!\r\n\r\nAuthor: 007Paul2000", 
+            "files": [], 
+            "hints": [], 
+            "id": 39, 
+            "max_attempts": 0, 
+            "name": "Welcome challenge", 
+            "solves": 68, 
+            "state": "visible", 
+            "tags": [], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 25, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t68 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tWelcome challenge\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Join the discord server and ask for the flag!</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"39\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "gone git": {
+            "attempts": 1, 
+            "category": "misc", 
+            "description": "go and git\r\n\r\nAuthor: 007Paul2000", 
+            "files": [
+                "/files/adbb49373ca3573bea9fc74223061685/my_awesome_website.zip?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExMH0.YBsXmg.BR9Yb3i2dK3Lk9Em-QK3QL9h9fI"
+            ], 
+            "hints": [], 
+            "id": 38, 
+            "max_attempts": 0, 
+            "name": "gone git", 
+            "solves": 42, 
+            "state": "visible", 
+            "tags": [
+                "stego"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 75, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t42 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tgone git\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t75\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>stego</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>go and git</p>\n<p>Author: 007Paul2000</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/adbb49373ca3573bea9fc74223061685/my_awesome_website.zip?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExMH0.YBsXmg.BR9Yb3i2dK3Lk9Em-QK3QL9h9fI'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tmy_awesome_website.zip\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"38\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }, 
+    "stego": {
+        "Crazy Signals": {
+            "attempts": 10, 
+            "category": "stego", 
+            "description": "SEEMS TO BE A FAMILIAR ONE.\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/a68ef0f07b41253405aea22b49b70245/chall.wav?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExNX0.YBsXng.KLjZdzYMCSteR6s8kve6yKXF3nI"
+            ], 
+            "hints": [], 
+            "id": 13, 
+            "max_attempts": 0, 
+            "name": "Crazy Signals", 
+            "solves": 56, 
+            "state": "visible", 
+            "tags": [
+                "stego"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 100, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t56 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tCrazy Signals\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t100\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>stego</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>SEEMS TO BE A FAMILIAR ONE.</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/a68ef0f07b41253405aea22b49b70245/chall.wav?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExNX0.YBsXng.KLjZdzYMCSteR6s8kve6yKXF3nI'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tchall.wav\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"13\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }, 
+        "LBS": {
+            "attempts": 1, 
+            "category": "stego", 
+            "description": "Find me if you can\r\n\r\nAuthor: nirvik007", 
+            "files": [
+                "/files/c0e92fc02f1c991761b8e0191d740dd3/stego.jpeg?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExMn0.YBsXog.ejnqt56V0x2DnXYNrMoES_1ZBq8"
+            ], 
+            "hints": [], 
+            "id": 5, 
+            "max_attempts": 0, 
+            "name": "LBS", 
+            "solves": 21, 
+            "state": "visible", 
+            "tags": [
+                "stego"
+            ], 
+            "type": "standard", 
+            "type_data": {
+                "id": "standard", 
+                "name": "standard", 
+                "scripts": {
+                    "create": "/plugins/challenges/assets/create.js", 
+                    "update": "/plugins/challenges/assets/update.js", 
+                    "view": "/plugins/challenges/assets/view.js"
+                }, 
+                "templates": {
+                    "create": "/plugins/challenges/assets/create.html", 
+                    "update": "/plugins/challenges/assets/update.html", 
+                    "view": "/plugins/challenges/assets/view.html"
+                }
+            }, 
+            "value": 125, 
+            "view": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\">\n\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t</button>\n\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link active\" href=\"#challenge\">Challenge</a>\n\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link challenge-solves\" href=\"#solves\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t21 Solves\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t<div role=\"tabpanel\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"challenge\">\n\t\t\t\t\t\t<h2 class='challenge-name text-center pt-3'>\n\t\t\t\t\t\t\tLBS\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3 class=\"challenge-value text-center\">\n\t\t\t\t\t\t\t125\n\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t<div class=\"challenge-tags text-center\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class='badge badge-info challenge-tag'>stego</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<span class=\"challenge-desc\">\n    <p>Find me if you can</p>\n<p>Author: nirvik007</p>\n\n</span>\n\n\t\t\t\t\t\t<div class=\"challenge-hints hint-row row\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row challenge-files text-center pb-3\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>\n\t\t\t\t\t\t\t\t\t<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'\n\t\t\t\t\t\t\t\t\t   href='/files/c0e92fc02f1c991761b8e0191d740dd3/stego.jpeg?token=eyJ1c2VyX2lkIjo1MCwidGVhbV9pZCI6MTksImZpbGVfaWQiOjExMn0.YBsXog.ejnqt56V0x2DnXYNrMoES_1ZBq8'>\n\t\t\t\t\t\t\t\t\t\t<i class=\"fas fa-download\"></i>\n\t\t\t\t\t\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tstego.jpeg\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</small>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<div class=\"row submit-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-9 form-group\">\n\t\t\t\t\t\t\t\t\n    <input id=\"challenge-id\" class=\"challenge-id\" type=\"hidden\" value=\"5\">\n    <input id=\"challenge-input\" class=\"challenge-input\" type=\"text\" name=\"answer\" placeholder=\"Flag\"/>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-3 form-group key-submit\">\n\t\t\t\t\t\t\t\t\n    <button id=\"challenge-submit\" class=\"challenge-submit\" type=\"submit\">\n        Submit\n    </button>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"row notification-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div id=\"result-notification\" class=\"alert alert-dismissable text-center w-100\"\n\t\t\t\t\t\t\t\t\t role=\"alert\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t<strong id=\"result-message\"></strong>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div role=\"tabpanel\" class=\"tab-pane fade\" id=\"solves\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td><b>Name</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t<td><b>Date</b>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody id=\"challenge-solves-names\">\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+        }
+    }
+}
