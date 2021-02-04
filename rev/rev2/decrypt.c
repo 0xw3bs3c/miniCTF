@@ -5,40 +5,40 @@
 int main()
 {
 
-  char local_68[16];
-  local_68[0] = 0x53;
-  local_68[1] = 0x59;
-  local_68[2] = 0x43;
-  local_68[3] = 0x50;
-  local_68[4] = 99;
-  local_68[5] = 0x7c;
-  local_68[6] = 0x60;
-  local_68[7] = 0x44;
-  local_68[8] = 0x6c;
-  local_68[9] = 0x67;
-  local_68[10] = 0x41;
-  local_68[11] = 0x67;
-  local_68[12] = 0x10;
-  local_68[13] = 0x53;
-  local_68[14] = 0x5f;
+  char given[16];
+  given[0] = 0x53;
+  given[1] = 0x59;
+  given[2] = 0x43;
+  given[3] = 0x50;
+  given[4] = 99;
+  given[5] = 0x7c;
+  given[6] = 0x60;
+  given[7] = 0x44;
+  given[8] = 0x6c;
+  given[9] = 0x67;
+  given[10] = 0x41;
+  given[11] = 0x67;
+  given[12] = 0x10;
+  given[13] = 0x53;
+  given[14] = 0x5f;
 
-  char local_28[16];
-  memset(local_28, 0, sizeof(local_28));
+  char flag[16];
+  memset(flag, 0, sizeof(flag));
 
-  int local_6c = 0;
-  while (local_6c < 15)
+  int index = 0;
+  while (index < 15)
   {
     for (int i = 0; i < 255; i++)
     {
-      local_28[local_6c] = i;
-      if ((local_6c + 0x14U ^ (int)local_28[local_6c]) == local_68[local_6c])
+      flag[index] = i;
+      if ((index + 0x14U ^ (int)flag[index]) == given[index])
       {
         break;
       }
     }
-    local_6c++;
+    index++;
   }
-  local_28[15] = 0;
-  printf("Flag: %s", local_28);
+  flag[15] = 0;
+  printf("Flag: %s", flag);
   return 0;
 }

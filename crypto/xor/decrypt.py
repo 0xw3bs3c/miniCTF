@@ -15,4 +15,7 @@ def xor(msg, key):
 
 
 for c in string.printable:
-  print(xor(enc, c))
+  res = xor(enc, c)
+  if res[0:4] == 'GLUG':
+    print(xor(enc, c))
+    print('KEY: ', c)
