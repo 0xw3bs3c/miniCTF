@@ -2,6 +2,8 @@
 
 General Resource:  [https://github.com/apsdehal/awesome-ctf](https://github.com/apsdehal/awesome-ctf)
 
+Another good read: https://trailofbits.github.io/ctf/
+
 General:
 1. [https://github.com/zardus/ctf-tools](https://github.com/zardus/ctf-tools)
 2. [https://gchq.github.io/CyberChef/](https://gchq.github.io/CyberChef/)
